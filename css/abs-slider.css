@@ -1,0 +1,23 @@
+#container{
+	margin: 0 auto;
+	width: 800px;
+	position: relative;
+}
+.navigation{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top:0;
+	left: 0;
+}
+.previous{
+	left: 10px;
+}
+.next{
+	right: 10px;
+}
+.previous, .next{
+	position: absolute;
+	top: 42%;
+	cursor: pointer;
+}

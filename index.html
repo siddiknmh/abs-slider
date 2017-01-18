@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ABS image slider</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+	</style>
+	<link rel="stylesheet" href="css/abs-slider.css">
+
+</head>
+<body onload="slideA()">
+	<div id="container">
+
+		<!-- Slider item -->
+		<div class="item">
+			<img id="image" src="img/slide_1.jpg" alt="">
+		</div>
+
+		<!-- Slider navigation -->
+		<div class="navigation">
+			<div class="previous">
+				<img onclick="slide(-1)" src="img/previous.png" alt="">
+			</div>
+			<div class="next">
+				<img onclick="slide(1)" src="img/next.png" alt="">
+			</div>
+		</div>
+	</div>
+
+	<script src="js/abs-slider.js"></script>
+
+</body>
+</html>
